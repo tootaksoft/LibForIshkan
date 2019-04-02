@@ -7,3 +7,23 @@
 //
 
 import Foundation
+
+public final class BarevApeerJan {
+    
+    let name : String
+    
+    init(name:String) {
+        self.name = name
+    }
+    func barev(){
+        print("barev \(name)")
+    }
+    public func add(a: Int, b: Int) -> Int {
+        return a + b
+    }
+    
+    public func sub(a: Int, b: Int) -> Int {
+        return a - b
+    }
+    
+}
